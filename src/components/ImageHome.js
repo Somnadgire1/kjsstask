@@ -56,6 +56,7 @@ const ImageHome = () => {
   return (
     <div className="container">
       <h1>Photo Gallery</h1>
+      <hr/>
       <div className="search-container">
         <div className="search-bar">
           <input
@@ -76,17 +77,6 @@ const ImageHome = () => {
           <option value="feelings">Feelings</option>
           <option value="nature">Nature</option>
           <option value="science">Science</option>
-          <option value="education">Education</option>
-          <option value="people">People</option>
-          <option value="health">Health</option>
-          <option value="religion">Religion</option>
-          <option value="places">Places</option>
-          <option value="animals">Animals</option>
-          <option value="computer">Computer</option>
-          <option value="food">Food</option>
-          <option value="sports">Sports</option>
-          <option value="travel">Travel</option>
-          <option value="business">Business</option>
         </select>
       </div>
       <div className="gallery">
@@ -109,6 +99,7 @@ const ImageHome = () => {
           <div>No images found.</div>
         )}
       </div>
+      <hr/>
 
       {selectedImage && (
         <div className="lightbox">
